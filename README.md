@@ -30,15 +30,12 @@ It keeps conversation context, so it actually **remembers what you said**.
     ```
     git clone https://github.com/Sidharath/Uce-Chatbot.git
     cd Uce-Chatbot
-
 2. Install dependencies:
     ```
     pip install requests python-dotenv
-
 3. Add your OpenAI API key to a .env file (in same folder where you keep _'ucebot.py'_:
     ```
     OPENAI_API_KEY = your_openai_key_here
-
 4. Run the chatbot:
     ```
     python uce_chatbot.py

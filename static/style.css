@@ -28,7 +28,7 @@ body {
     max-width: 95%;
     height: 80%;
     /* background: #e5e7eb; */
-    background-image: url("/static/background.jpg");
+    background-image: url("/static/bg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -150,4 +150,3 @@ body {
 #chat-log::-webkit-scrollbar-thumb:hover {
     background: #7a7a7a;
 }
-

@@ -36,12 +36,17 @@ function addMessage(text, type) {
   if (PAUSED) {
     document.body.innerHTML = 
       <h1 style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: #000;
         color: white;
-        text-align: center;
-        margin-top: 40vh;
-        font-family: Arial, sans-serif;
+        font-family: system-ui, sans-serif;
+        font-size: 2rem;
       ">
         Uce is Offline
       </h1>;
   }
+
 

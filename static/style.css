@@ -20,7 +20,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #e5e7eb;
+    color: #7ecbf8;
 }
 
 .chat-container {
@@ -150,3 +150,4 @@ body {
 #chat-log::-webkit-scrollbar-thumb:hover {
     background: #7a7a7a;
 }
+

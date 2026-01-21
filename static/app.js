@@ -31,3 +31,8 @@ function addMessage(text, type) {
   log.scrollTop = log.scrollHeight;
   return div;
 }
+
+  const PAUSED = true;
+  if (PAUSED) {
+    document.body.innerHTML = "<h1>Uce is offline</h1>";
+  }

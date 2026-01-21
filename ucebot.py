@@ -13,6 +13,10 @@ if not OPENAI_KEY:
 # ------------- Chat with OpenAI
 
 def chat_with_AI(user_input, chat_history):
+
+    if chat_history is None:
+        chat_history = []
+        
     url = "https://api.openai.com/v1/chat/completions"
 
     headers = {
@@ -48,32 +52,3 @@ def chat_with_AI(user_input, chat_history):
 
     reply = response.json()["choices"][0]["message"]["content"]
     return reply.strip()
-
-# -------------- MAIN LOOP
-
-def main():
-    print("=== Chatbot Initializing ===")
-    print("Type 'exit' or 'quit' to stop.\n")
-
-    chat_history = []
-
-    while True:
-        user_input = input("You: ").strip()
-
-        if user_input.lower() in ["exit", "quit"]:
-            print("Uce: Goodbye Uce ☝️")
-            break
-
-        elif user_input.lower() in ["seeya", "see ya", "see you", "see ya bruv", "see ya uce", "later bruv", "ight later bruv", "ight later man"]:
-            print("Uce: Alright, Catch ya later, man ☝️")
-            break
-
-        reply = chat_with_AI(user_input, chat_history)
-        print(f"Uce: {reply}\n")
-
-        # Save conversation history
-        chat_history.append({"role": "user", "content": user_input})
-        chat_history.append({"role": "assistant", "content": reply})
-
-if __name__ == "__main__":
-    main()

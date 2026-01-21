@@ -34,7 +34,6 @@ function addMessage(text, type) {
 
   const PAUSED = true;
   if (PAUSED) {
-        document.body.style.background = "#000";
         document.body.innerHTML = 
           <h1 style="
             color: white;
@@ -45,6 +44,7 @@ function addMessage(text, type) {
             Uce is Offline
           </h1>;
   }
+
 
 
 

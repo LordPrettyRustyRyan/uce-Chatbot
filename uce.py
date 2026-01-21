@@ -52,3 +52,4 @@ def chat_with_AI(user_input, chat_history):
 
     reply = response.json()["choices"][0]["message"]["content"]
     return reply.strip()
+

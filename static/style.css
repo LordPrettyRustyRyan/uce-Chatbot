@@ -10,7 +10,7 @@ body {
     margin: 0;
     height: 100vh;
     /* background: linear-gradient(135deg, #ffffff, #1e293b); */
-    background-image: url("/static/background.jpg");
+    background-image: url("/static/chat-bg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@ body {
     max-width: 95%;
     height: 80%;
     /* background: #e5e7eb; */
-    background-image: url("/static/chat-bg.jpg");
+    background-image: url("/static/background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -150,3 +150,4 @@ body {
 #chat-log::-webkit-scrollbar-thumb:hover {
     background: #7a7a7a;
 }
+

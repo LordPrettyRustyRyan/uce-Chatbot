@@ -34,5 +34,14 @@ function addMessage(text, type) {
 
   const PAUSED = true;
   if (PAUSED) {
-    document.body.innerHTML = "<h1>Uce is offline</h1>";
+    document.body.innerHTML = 
+      <h1 style="
+        color: white;
+        text-align: center;
+        margin-top: 40vh;
+        font-family: Arial, sans-serif;
+      ">
+        Uce is Offline
+      </h1>;
   }
+

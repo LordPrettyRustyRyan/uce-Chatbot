@@ -34,7 +34,8 @@ function addMessage(text, type) {
 
   const PAUSED = true;
   if (PAUSED) {
-    document.body.innerHTML = "<div style="color:white;"><h1>Uce is offline</h1></div>";
+    document.body.innerHTML = "<h1>Uce is offline</h1>";
   }
+
 
 

@@ -32,7 +32,7 @@ function addMessage(text, type) {
   return div;
 }
 
-const PAUSED = true;
-  if (PAUSED) {
-    document.body.innerHTML = "<h1>Uce is offline</h1>";
-}
+// const PAUSED = true;
+//   if (PAUSED) {
+//     document.body.innerHTML = "<h1>Uce is offline</h1>";
+// }
